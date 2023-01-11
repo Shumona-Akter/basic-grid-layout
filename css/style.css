@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.food{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 30px;
+}
+.food-item{
+    width: 100%;
+    border: 1px solid tomato;
+    border-radius: 20px;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 300px;
+}
+.food-item h1{
+    font-size: 25px;
+    color: tomato;
+    padding: 10px 20px;
+}
+.food-item h1 p{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #353535;
+}
+.food-item  button{
+    padding: 20px 30px;
+    margin: 0 20px;
+    color: tomato;
+    background: #353535;
+    border-radius: 5px;
+}
+.food-item  button a{
+    color: tomato;
+    font-size: 20px;
+}
